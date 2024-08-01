@@ -1,0 +1,5 @@
+selenium
+pandas
+selenium-stealth
+google-cloud-storage
+webdriver-manager
