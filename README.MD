@@ -1,6 +1,6 @@
 # Terraform Webscraping Tokopedia with Selenium
 
-This project sets up a web scraping environment for Tokopedia using Terraform, Selenium, Docker, and Google Cloud Platform (GCP).
+This project sets up a web scraping environment for Tokopedia using Terraform, Selenium, Docker, and Google Cloud Platform (GCP). Deploying multi vm on selenium will reduce the time scraping due to vm is having internet bandwith in every vm. So, using terraform/tofu is the best practices for deploying multi vm. Also, using docker container give you advantages to be easy installation with docker image or incase you want to deploy more container in vm.
 
 ## Prerequisites
 
@@ -49,4 +49,7 @@ This project sets up a web scraping environment for Tokopedia using Terraform, S
 - [Docker Documentation](https://docs.docker.com/)
 - [Selenium Documentation](https://www.selenium.dev/documentation/en/)
 
-For any issues or questions, feel free to open an issue or contact the project maintainers.
+Thank you,
+Azhar Izzannada Elbachtiar
+
+
