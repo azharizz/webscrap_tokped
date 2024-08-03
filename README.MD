@@ -2,6 +2,18 @@
 
 This project sets up a web scraping environment for Tokopedia using Terraform, Selenium, Docker, and Google Cloud Platform (GCP). Deploying multi vm on selenium will reduce the time scraping due to vm is having internet bandwith in every vm. So, using terraform/tofu is the best practices for deploying multi vm. Also, using docker container give you advantages to be easy installation with docker image or incase you want to deploy more container in vm.
 
+## Run
+1. Terraform init and apply
+2. VM Spot Created with docker container of Selenium
+3. Selenium headless run webscrap to tokopedia.com
+4. Webscrap Finish, container deleted
+5. Terraform destroy to remove VM Spot
+6. Ingestion file from webscrap to db in Apache superset
+7. Superset Dashboard Creation
+8. Apache Superset with Facebook Prophet Forecasting
+9. Dashboard created 
+10. Finish
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed
