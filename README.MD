@@ -53,6 +53,7 @@ This project sets up a web scraping environment for Tokopedia using Terraform, S
 
 - Occasionally, there may be issues with Chromedriver compatibility. Ensure that the Chromedriver version matches the required Selenium version.
 - For more details on Chromedriver versions, refer to the [official Chromedriver documentation](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+- Youtube Video for this project: https://youtu.be/UcIDHofGkAs?si=DQlQApWzb6JUF5xl
 
 ## Additional Resources
 
